@@ -1,12 +1,55 @@
 import Image from "next/image";
-import styles from "./main.module.css";
+import styles from "./commonStyles.module.css";
 
-export default function Main() {
+interface MainProps {
+  onScrollDown: () => void;
+}
+
+export default function Main({ onScrollDown }: MainProps) {
   return (
     <div className={styles.main_wrapper}>
       <div className={styles.main_container}>
-        <Image src="/img/main-logo.png" alt="메인로고" width={251} height={155} />
-        <Image src="/img/main-mock.png" alt="메인이미지" width={390} height={680} />
+        <Image
+          src="/img/main-logo.png"
+          alt="메인로고"
+          width={230}
+          height={135}
+          style={{ maxWidth: "70%", height: "auto" }}
+        />
+        <Image
+          src="/img/main-mock.png"
+          alt="메인이미지"
+          width={940}
+          height={542}
+          style={{
+            width: "200%",
+            height: "auto",
+            maxWidth: "none",
+            transform: "translateX(5%)"
+          }}
+        />
+      </div>
+      <div
+        style={{
+          marginTop: "-6.5rem",
+          position: "relative",
+          width: "65px",
+          height: "65px"
+        }}
+      >
+        <Image src="/img/main-btn.png" alt="스냅 버튼" width={65} height={65} />
+        <div
+          onClick={onScrollDown}
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            cursor: "pointer",
+            zIndex: 10
+          }}
+        />
       </div>
     </div>
   );
