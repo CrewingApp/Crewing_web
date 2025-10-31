@@ -14,7 +14,13 @@ export default function Main({ onScrollDown }: MainProps) {
           alt="메인로고"
           width={230}
           height={135}
-          style={{ maxWidth: "70%", height: "auto" }}
+          style={{
+            width: "100%",
+            maxWidth: "180px",
+            maxHeight: "50vh",
+            height: "auto",
+            objectFit: "contain"
+          }}
         />
         <Image
           src="/img/main-mock.png"
@@ -25,6 +31,8 @@ export default function Main({ onScrollDown }: MainProps) {
             width: "200%",
             height: "auto",
             maxWidth: "none",
+            maxHeight: "60vh",
+            objectFit: "contain",
             transform: "translateX(5%)"
           }}
         />
