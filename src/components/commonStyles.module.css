@@ -129,6 +129,23 @@
 .downloadBtn:hover {
   opacity: 0.8;
 }
+
+.downloadBtnDisabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.comingSoonText {
+  color: #013236;
+  font-family: "Pretendard", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2rem;
+  text-align: center;
+  margin: -0.5rem 0 0 0;
+}
+
 .download_btn_container {
   display: flex;
   flex-direction: column;

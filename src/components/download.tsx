@@ -21,9 +21,14 @@ export default function Download() {
           <p className={styles.download_btn}>App Store</p>
         </a>
 
-        <div className={styles.downloadBtn}>
-          <Image src="/icon/ic-google.svg" alt="Google Play" width={26} height={27} />
-          <p className={styles.download_btn}>Google Play</p>
+        <div
+          style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.8rem" }}
+        >
+          <div className={`${styles.downloadBtn} ${styles.downloadBtnDisabled}`}>
+            <Image src="/icon/ic-google.svg" alt="Google Play" width={26} height={27} />
+            <p className={styles.download_btn}>Google Play</p>
+          </div>
+          <p className={styles.comingSoonText}>Google Play 11월 5일 오픈 예정</p>
         </div>
       </div>
     </div>
