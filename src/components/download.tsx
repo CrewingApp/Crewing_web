@@ -9,6 +9,9 @@ export default function Download() {
   return (
     <div className={styles.download_wrapper}>
       <Image src="/img/main-logo.png" alt="메인로고" width={251} height={155} />
+      <p className={styles.comingSoonText2}>
+        진에어, 제주항공, 티웨이항공은 추후 스케줄 업데이트 예정입니다.
+      </p>
 
       <div className={styles.download_btn_container}>
         <a
