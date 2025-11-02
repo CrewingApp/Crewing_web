@@ -5,6 +5,7 @@ export default function Download() {
   const APP_STORE_URL =
     "https://apps.apple.com/kr/app/crewing-%EC%8A%B9%EB%AC%B4%EC%9B%90-%EC%8A%A4%EC%BC%80%EC%A4%84-%EC%95%B1/id6752578142";
   const GOOGLE_PLAY_URL = "";
+  const INSTAGRAM_URL = "https://www.instagram.com/crewing_official/";
 
   return (
     <div className={styles.download_wrapper}>
@@ -14,6 +15,16 @@ export default function Download() {
       </p>
 
       <div className={styles.download_btn_container}>
+        <a
+          href={INSTAGRAM_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.downloadBtn}
+        >
+          <Image src="/icon/ic-instagram.png" alt="Instagram" width={18} height={22} />
+          <p className={styles.download_btn}>Instargram</p>
+        </a>
+
         <a
           href={APP_STORE_URL}
           target="_blank"
