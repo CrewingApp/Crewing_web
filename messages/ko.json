@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "title": "Crewing",
+    "description": "비행을 더 가볍게, 크루윙"
+  },
+  "features": {
+    "flightBoard": {
+      "name": "Flight Board",
+      "title": "직관적인 비행 일정 확인",
+      "description": "비행 일정을 한눈에 정리해주는 메인 보드\n편명부터 비행 시간, 현지 날씨까지\n필요한 정보만 깔끔하게 확인하세요."
+    },
+    "calendar": {
+      "name": "Calendar",
+      "title": "간편한 비행 등록 캘린더",
+      "description": "퀵턴, 오버레이 비행 유형별로\n손쉽게 비행 스케줄을 등록해보세요."
+    },
+    "diary": {
+      "name": "Flight Diary",
+      "title": "비행 일기",
+      "description": "사진과 메모로 남기는 나만의 비행 로그\n비행 후의 감정과 기억을 한 페이지에 담아보세요."
+    }
+  },
+  "download": {
+    "instagram": "Instagram",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  }
+}

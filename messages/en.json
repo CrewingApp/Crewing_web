@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "title": "Crewing",
+    "description": "Making flights lighter, Crewing"
+  },
+  "features": {
+    "flightBoard": {
+      "name": "Flight Board",
+      "title": "Flight Schedule Overview",
+      "description": "Keep all your flight details in one clean\ndashboard from flight numbers and duty\ntimes to local weather. \n Everything you need, at a glance."
+    },
+    "calendar": {
+      "name": "Calendar",
+      "title": "Easy flight scheduling",
+      "description": "Register your flights effortlessly,\nwhether it’s a quick turn\nor an overnight layover."
+    },
+    "diary": {
+      "name": "Flight Diary",
+      "title": "Log your flight journal",
+      "description": "Capture each journey with photos and notes.\nRecord your feelings and memories\nafter every flight."
+    }
+  }
+}

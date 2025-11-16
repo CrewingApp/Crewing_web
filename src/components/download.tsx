@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import styles from "./commonStyles.module.css";
+import { useLocale } from "next-intl";
 
 export default function Download() {
   const APP_STORE_URL =
@@ -7,9 +10,11 @@ export default function Download() {
   const GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details?id=com.likelion.crewing";
   const INSTAGRAM_URL = "https://www.instagram.com/crewing_official/";
 
+  const locale = useLocale();
+
   return (
     <div className={styles.download_wrapper}>
-      <Image src="/img/main-logo.png" alt="메인로고" width={251} height={155} />
+      <Image src={`/img/${locale}/main-logo.png`} alt="메인로고" width={251} height={155} />
 
       <div className={styles.download_btn_container}>
         <a

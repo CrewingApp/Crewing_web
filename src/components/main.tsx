@@ -1,16 +1,21 @@
+"use client";
+
 import Image from "next/image";
 import styles from "./commonStyles.module.css";
+import { useLocale } from "next-intl";
 
 interface MainProps {
   onScrollDown: () => void;
 }
 
 export default function Main({ onScrollDown }: MainProps) {
+  const locale = useLocale();
+
   return (
     <div className={styles.main_wrapper}>
       <div className={styles.main_container}>
         <Image
-          src="/img/main-logo.png"
+          src={`/img/${locale}/main-logo.png`}
           alt="메인로고"
           width={230}
           height={135}
@@ -23,7 +28,7 @@ export default function Main({ onScrollDown }: MainProps) {
           }}
         />
         <Image
-          src="/img/main-mock.png"
+          src={`/img/${locale}/main-mock.png`}
           alt="메인이미지"
           width={940}
           height={542}
