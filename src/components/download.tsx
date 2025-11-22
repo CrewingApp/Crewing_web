@@ -37,7 +37,7 @@ export default function Download() {
           <p className={styles.download_btn}>App Store</p>
         </a>
 
-        <a
+        {/* <a
           href={GOOGLE_PLAY_URL}
           target="_blank"
           rel="noopener noreferrer"
@@ -45,7 +45,7 @@ export default function Download() {
         >
           <Image src="/icon/ic-google.svg" alt="Google Play" width={26} height={27} />
           <p className={styles.download_btn}>Google Play</p>
-        </a>
+        </a> */}
       </div>
     </div>
   );
