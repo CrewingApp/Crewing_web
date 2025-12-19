@@ -7,7 +7,8 @@ import { useLocale } from "next-intl";
 export default function Download() {
   const APP_STORE_URL =
     "https://apps.apple.com/kr/app/crewing-%EC%8A%B9%EB%AC%B4%EC%9B%90-%EC%8A%A4%EC%BC%80%EC%A4%84-%EC%95%B1/id6752578142";
-  const GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details?id=com.likelion.crewing";
+  const GOOGLE_PLAY_URL =
+    "https://play.google.com/store/apps/details?id=com.likelion.crewing&pcampaignid=web_share";
   const INSTAGRAM_URL = "https://www.instagram.com/crewing_official/";
 
   const locale = useLocale();
@@ -37,7 +38,7 @@ export default function Download() {
           <p className={styles.download_btn}>App Store</p>
         </a>
 
-        {/* <a
+        <a
           href={GOOGLE_PLAY_URL}
           target="_blank"
           rel="noopener noreferrer"
@@ -45,7 +46,7 @@ export default function Download() {
         >
           <Image src="/icon/ic-google.svg" alt="Google Play" width={26} height={27} />
           <p className={styles.download_btn}>Google Play</p>
-        </a> */}
+        </a>
       </div>
     </div>
   );
