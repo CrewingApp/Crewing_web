@@ -162,3 +162,21 @@
   text-align: center;
   margin: -0.5rem 0 0 0;
 }
+.code_search_input {
+  display: flex;
+  height: 5rem;
+  width: 90%;
+  padding: 1.4rem 1.8rem;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 20.058px;
+  border: 1.003px solid rgba(240, 240, 240, 0.5);
+  background: rgba(250, 250, 251, 0.25);
+  color: #fff;
+  font-family: "Pretendard", sans-serif;
+  font-size: 16.047px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.07px;
+  box-sizing: border-box;
+}

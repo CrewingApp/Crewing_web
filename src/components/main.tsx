@@ -37,8 +37,8 @@ export default function Main({ onScrollDown }: MainProps) {
             height: "auto",
             maxWidth: "none",
             maxHeight: "60vh",
-            objectFit: "contain",
-            transform: "translateX(5%)"
+            objectFit: "contain"
+            // transform: "translateX(5%)"
           }}
         />
       </div>
