@@ -11,17 +11,17 @@
       "detailDescription": "Routes, times, schedules—\nall detailed at a glance."
     },
     "code": {
-      "title": "Enter **flight number** or **3-letter code**\nto register your schedule.",
+      "title": "Enter \n **flight number** or **3-letter code**\nto register your schedule.",
       "description": "__Departure or flight number__",
       "searchPlaceholder": "Search airport code or flight number"
     },
     "friends": {
-      "title": "**Connect with colleagues and friends**",
-      "description": "Share schedules with friends and check **days off (OFF)** together\nall at once."
+      "title": "**Connect with**\n**colleagues and friends**",
+      "description": "Share schedules with friends \nand check **days off (OFF)** together all at once."
     },
     "memo": {
       "title": "**Things to pack before flight, don't miss anything**",
-      "description": "From briefings, service changes, to personal memos,\nrecord and check everything by schedule."
+      "description": "From briefings, service changes,\nto personal memos, **record** and **check** everything by schedule."
     }
   },
   "download": {
