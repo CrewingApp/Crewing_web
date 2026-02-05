@@ -6,11 +6,14 @@
   "features": {
     "calendar": {
       "title": "**스택형 · 상세형** __캘린더__",
-      "description": ""
+      "description": "",
+      "stackDescription": "바쁜 날에도\n빠르게 스케줄을 체크하세요.",
+      "detailDescription": "노선·시간·일정까지\n자세히, 한눈에 보여드릴게요."
     },
     "code": {
       "title": "**편명** 또는 **공항 3코드**만 입력하면\n근무 일정이 바로 등록돼요.",
-      "description": "__출발지 또는 편명 입력__"
+      "description": "__출발지 또는 편명 입력__",
+      "searchPlaceholder": "공항 코드 또는 편명 검색"
     },
     "friends": {
       "title": "**동료, 친구와 연결**",

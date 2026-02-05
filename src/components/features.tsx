@@ -52,7 +52,7 @@ export default function Features() {
   return (
     <div className={styles.feature_wrapper}>
       {/* 캘린더  */}
-      <div>
+      <div className={styles.feature_section_full_width}>
         <div className={styles.context_container}>
           <div className={styles.name_container}>
             <Image src="/icon/ic-flight.svg" alt="flight" width={28} height={28} />
@@ -78,14 +78,9 @@ export default function Features() {
             />
           </div>
           <div className={styles.calendar_description_text}>
-            <span>
-              바쁜 날에도
-              <br /> 빠르게 스케줄을 체크하세요.
-            </span>
+            <span>{renderDescription(t("calendar.stackDescription"))}</span>
             <Image src="/icon/ic-change.svg" alt="change" width={14} height={11} />
-            <span>
-              노선·시간·일정까지 <br /> 자세히, 한눈에 보여드릴게요.
-            </span>
+            <span>{renderDescription(t("calendar.detailDescription"))}</span>
           </div>
         </div>
 
@@ -102,7 +97,7 @@ export default function Features() {
           </div>
           <p className={styles.feature_title}>{renderTitleWithBold(t("code.title"))}</p>
           <p className={styles.feature_description}>{renderDescription(t("code.description"))}</p>
-          <div className={styles.code_search_input}>공항 코드 또는 편명 검색</div>
+          <div className={styles.code_search_input}>{t("code.searchPlaceholder")}</div>
         </div>
       </div>
 

@@ -4,20 +4,29 @@
     "description": "Making flights lighter, Crewing"
   },
   "features": {
-    "flightBoard": {
-      "name": "Flight Board",
-      "title": "Flight Schedule Overview",
-      "description": "Keep all your flight details in one clean\ndashboard from flight numbers and duty\ntimes to local weather. \n Everything you need, at a glance."
-    },
     "calendar": {
-      "name": "Calendar",
-      "title": "Easy flight scheduling",
-      "description": "Register your flights effortlessly,\nwhether it’s a quick turn\nor an overnight layover."
+      "title": "**Stack · Detail** __type Calendar__",
+      "description": "",
+      "stackDescription": "Even on busy days,\nquickly check your schedule.",
+      "detailDescription": "Routes, times, schedules—\nall detailed at a glance."
     },
-    "diary": {
-      "name": "Flight Diary",
-      "title": "Log your flight journal",
-      "description": "Capture each journey with photos and notes.\nRecord your feelings and memories\nafter every flight."
+    "code": {
+      "title": "Enter **flight number** or **3-letter code**\nto register your schedule.",
+      "description": "__Departure or flight number__",
+      "searchPlaceholder": "Search airport code or flight number"
+    },
+    "friends": {
+      "title": "**Connect with colleagues and friends**",
+      "description": "Share schedules with friends and check **days off (OFF)** together\nall at once."
+    },
+    "memo": {
+      "title": "**Things to pack before flight, don't miss anything**",
+      "description": "From briefings, service changes, to personal memos,\nrecord and check everything by schedule."
     }
+  },
+  "download": {
+    "instagram": "Instagram",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
   }
 }
