@@ -7,6 +7,8 @@
     "calendar": {
       "title": "**스택형 · 상세형** __캘린더__",
       "description": "",
+      "stackButton": "스택",
+      "detailButton": "상세",
       "stackDescription": "바쁜 날에도\n빠르게 스케줄을 체크하세요.",
       "detailDescription": "노선·시간·일정까지\n자세히, 한눈에 보여드릴게요."
     },

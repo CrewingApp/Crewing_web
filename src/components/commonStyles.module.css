@@ -201,6 +201,27 @@
   box-sizing: border-box;
 }
 
+/* 캘린더 모드 버튼 */
+.calendar_mode_button {
+  display: flex;
+  height: 37.306px;
+  padding: 2.984px 11.938px;
+  justify-content: center;
+  align-items: center;
+  gap: 2.984px;
+  border-radius: 22.384px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: #276268;
+  color: #fff;
+  font-family: "Pretendard", sans-serif;
+  font-size: 11.906px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14.922px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
 .calendar_description_text {
   display: flex;
   margin-left: -3rem;

@@ -2,10 +2,11 @@
 
 import styles from "./commonStyles.module.css";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 export default function Features() {
   const t = useTranslations("features");
+  const locale = useLocale();
 
   // 볼드 텍스트 파싱 함수
   const parseBoldText = (text: string) => {
@@ -62,20 +63,14 @@ export default function Features() {
             {renderDescription(t("calendar.description"))}
           </p>
           <div className={styles.calendar_mode_buttons}>
-            <Image
-              src="/img/stack-mode.png"
-              alt="스택 모드"
-              width={64}
-              height={50}
-              className={styles.mode_button_image}
-            />
-            <Image
-              src="/img/detail-mode.png"
-              alt="상세 모드"
-              width={64}
-              height={50}
-              className={styles.mode_button_image}
-            />
+            <button className={styles.calendar_mode_button}>
+              <Image src="/icon/ic-stack.svg" alt="stack" width={14} height={14} />
+              <span>{t("calendar.stackButton")}</span>
+            </button>
+            <button className={styles.calendar_mode_button}>
+              <Image src="/icon/ic-detail.svg" alt="detail" width={14} height={14} />
+              <span>{t("calendar.detailButton")}</span>
+            </button>
           </div>
           <div className={styles.calendar_description_text}>
             <span>{renderDescription(t("calendar.stackDescription"))}</span>
@@ -85,7 +80,7 @@ export default function Features() {
         </div>
 
         <div className={styles.calendar_images_container}>
-          <Image src="/img/calendar.png" alt="캘린더" width={1000} height={1000} />
+          <Image src={`/img/${locale}/calendar.png`} alt="캘린더" width={1000} height={1000} />
         </div>
       </div>
 
@@ -114,7 +109,7 @@ export default function Features() {
         </div>
         <div className={styles.feature_image_container}>
           <Image
-            src="/img/friends.png"
+            src={`/img/${locale}/friends.png`}
             alt="friends"
             width={300}
             height={1000}
@@ -134,7 +129,7 @@ export default function Features() {
         </div>
         <div className={styles.feature_image_container}>
           <Image
-            src="/img/memo.png"
+            src={`/img/${locale}/memo.png`}
             alt="memo"
             width={300}
             height={1000}

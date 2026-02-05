@@ -7,6 +7,8 @@
     "calendar": {
       "title": "**Stack · Detail** __type Calendar__",
       "description": "",
+      "stackButton": "Stack",
+      "detailButton": "Detail",
       "stackDescription": "Even on busy days,\nquickly check your schedule.",
       "detailDescription": "Routes, times, schedules—\nall detailed at a glance."
     },
